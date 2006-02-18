@@ -10,11 +10,9 @@ Source0:	http://www.pleyades.net/pawm/utils/%{name}-%{version}.tar.gz
 URL:		http://www.pleyades.net/pawm/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	fontconfig-libs
-BuildRequires:	gdk-pixbuf-devel
-BuildRequires:	gtk+2-devel
+BuildRequires:	gtk+2-devel >= 1.3.13
 BuildRequires:	libtool
-BuildRequires:	pango-devel
+BuildRequires:	pkgconfig
 Buildrequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
