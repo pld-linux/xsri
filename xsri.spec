@@ -1,5 +1,5 @@
 Summary:	X Set Root Image - display image on the root window
-Summary(pl.UTF-8):   X Set Root Image - wyświetlanie obrazu w głównym oknie
+Summary(pl.UTF-8):	X Set Root Image - wyświetlanie obrazu w głównym oknie
 Name:		xsri
 Version:	2.1.0
 Release:	1
