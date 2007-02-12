@@ -1,5 +1,5 @@
 Summary:	X Set Root Image - display image on the root window
-Summary(pl):	X Set Root Image - wy∂wietlanie obrazu w g≥Ûwnym oknie
+Summary(pl.UTF-8):   X Set Root Image - wy≈õwietlanie obrazu w g≈Ç√≥wnym oknie
 Name:		xsri
 Version:	2.1.0
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 X Set Root Image - displays images on the root window with parameters.
 
-%description -l pl
-X Set Root Image - wy∂wietla obraz w g≥Ûwnym oknie (jako tapetÍ) z
+%description -l pl.UTF-8
+X Set Root Image - wy≈õwietla obraz w g≈Ç√≥wnym oknie (jako tapetƒô) z
 podanymi parametrami.
 
 %prep
