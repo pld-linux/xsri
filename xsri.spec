@@ -13,7 +13,7 @@ BuildRequires:	automake
 BuildRequires:	gtk+2-devel >= 1.3.13
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
-Buildrequires:	popt-devel
+BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
